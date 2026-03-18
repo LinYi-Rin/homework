@@ -8,6 +8,8 @@
 - 本文提出Hybrid CNN-Mamba架构，结合两者优势提升眼底图像增强效果
 
 ## 2. 核心方法
+![Hybrid CNN-Mamba 模型架构图](figures/architecture.png)
+*图1 本文提出的Hybrid CNN-Mamba模型架构，包含CNN局部特征提取分支与Mamba全局建模分支*
 - **CNN分支**：提取局部纹理、边缘等细粒度特征
 - **Mamba分支**：建模全局上下文与长程依赖关系
 - **特征融合模块**：加权融合两个分支的输出
