@@ -1,0 +1,5 @@
+streamlit==1.36.0
+paddlepaddle==2.6.1
+paddleocr==2.7.0.3
+pillow
+numpy
